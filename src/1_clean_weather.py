@@ -37,6 +37,17 @@ weather_data = weather_data.loc[:, columns_to_keep]
 # Fill in NA values for Weather with the prior value (subsequent value for the first couple rows)
 weather_data['Weather'] = weather_data['Weather'].fillna(method='ffill').fillna(method='bfill')
 
+# Reduce the number of weather types to something manageable. Look for keywords of worst weather
+weather_data.loc[weather_data.Weather.str.contains('Snow'), 'Weather'] = 'Snow'
+weather_data.loc[weather_data.Weather.str.contains('Thunderstorms'), 'Weather'] = 'Thunderstorms'
+weather_data.loc[weather_data.Weather.str.contains('Rain'), 'Weather'] = 'Rain'
+weather_data.loc[weather_data.Weather.str.contains('Showers'), 'Weather'] = 'Rain'
+weather_data.loc[weather_data.Weather.str.contains('Drizzle'), 'Weather'] = 'Rain'
+weather_data.loc[weather_data.Weather.str.contains('Fog'), 'Weather'] = 'Fog'
+weather_data.loc[weather_data.Weather.str.contains('Haze'), 'Weather'] = 'Fog'
+weather_data.loc[weather_data.Weather.str.contains('Cloudy'), 'Weather'] = 'Cloudy'
+weather_data.loc[weather_data.Weather.str.contains('Clear'), 'Weather'] = 'Clear'
+
 # Save to interim
 out_file = os.path.join(project_dir, 'data', 'interim', 'weather_data.csv')
 logger.info('Saving to: ' + f"{out_file}")
