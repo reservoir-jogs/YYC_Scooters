@@ -1,2 +1,12 @@
 
 data/raw/mapbox.token
+*.csv
+data/raw/en_climate_hourly_metadata_AB_3031092.txt
+data/raw/en_climate_hourly_metadata_AB_3031094.txt
+data/raw/en_climate_hourly_metadata_AB_3031875.txt
+notebooks/.ipynb_checkpoints/YYC-Scooters-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/YYC-Scooters-Raw Code-checkpoint.ipynb
+notebooks/YYC-Scooters.ipynb
+*.twb
+*.xml
+*.iml
