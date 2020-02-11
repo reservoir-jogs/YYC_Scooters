@@ -1,6 +1,6 @@
 # YYC Scooters
 
-Data to clean shared mobility pilot trip data from City of Calgary, AB Canada and analize with jupyter notebook.
+Data to clean shared mobility pilot trip data from City of Calgary, AB Canada and analyze with jupyter notebook.
 
 Weather data from Environment Canada
 
