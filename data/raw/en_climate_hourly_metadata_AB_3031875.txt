@@ -1,0 +1,15 @@
+﻿Station Name		COP UPPER
+Province		ALBERTA
+Current Station Operator	Environment and Climate Change Canada - Meteorological Service of Canada
+Latitude		51.08
+Longitude		-114.22
+Elevation		1235.00
+Climate Identifier	3031875
+WMO Identifier		71235
+TC Identifier		WDU
+All times are specified in Local Standard Time (LST). Add 1 hour to adjust for Daylight Saving Time where and when it is observed.
+
+Legend
+E	Estimated
+M	Missing
+NA	Not Available

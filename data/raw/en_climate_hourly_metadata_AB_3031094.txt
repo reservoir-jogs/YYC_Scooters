@@ -1,0 +1,15 @@
+﻿Station Name		CALGARY INT'L CS
+Province		ALBERTA
+Current Station Operator	Environment and Climate Change Canada - Meteorological Service of Canada
+Latitude		51.11
+Longitude		-114.00
+Elevation		1081.90
+Climate Identifier	3031094
+WMO Identifier		71393
+TC Identifier		PCI
+All times are specified in Local Standard Time (LST). Add 1 hour to adjust for Daylight Saving Time where and when it is observed.
+
+Legend
+E	Estimated
+M	Missing
+NA	Not Available
